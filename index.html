@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://use.fontawesome.com/926fe18a63.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script>
+    $(function(){
+      $(".headC").click(function(){
+        $(".headB").slideToggle();
+      });
+    });
+  </script>
+  <title>hokkaidou</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="container-small">
+        <a href="#" class="headA">LOGO</a>
+        <button type="button" class="headC">
+          <span class="fa fa-bars"
+          title="MENU"></span>
+        </button>
+      </div>
+      <nav class="headB">
+        <ul>
+          <li><a href="/">TOP</a></li>
+          <li><a href="/">CONTENTS</a></li>
+          <li><a href="/">ABOUT</a></li>
+          <li><a href="/">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="conA">
+    <div class="container">
+      <img src="#" alt="">
+      <h1>北海道</h1>
+      <p>美味しく楽しくライフログ</p>
+      <a href="#">ライフログを始める</a>
+    </div>
+  </section>
+  <section class="conB">
+    <div class="container">
+      <div class="text">
+        <span class="fa fa-cutlery icon"></span>
+        <h2>グルメ</h2>
+        <p>地元の口コミで人気店</p>
+        <a href="#">MORE...
+          <span class="fa fa-chevron-right"></span>
+        </a>
+      </div>
+      <div class="text">
+        <span class="fa fa-hand-pointer-o icon"></span>
+        <h2>観光</h2>
+        <p>おすすめ観光スポット</p>
+        <a href="#">MORE...
+          <span class="fa fa-chevron-right"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="conC">
+  <div class="container">
+    <div class="photo"></div>
+    <div class="text">
+      <h2>旅のPoint</h2>
+      <p>現地スタッフ厳選</p>
+      <a href="#">詳しく確認する
+        <span class="fa fa-chevron-right"></span>
+      </a>
+    </div>
+  </div>
+  </section>
+  <section class="conD">
+    <div class="container">
+      <div class="photo"></div>
+      <div class="text">
+        <h2>体験スポット</h2>
+        <p>北海道でしか味わえない体験特集</p>
+        <a href="#">例えばこんな楽しみが…
+          <span class="fa fa-chevron-right"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <style>
+      .sr-only{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0,0,0,0);
+        border: 0;
+      }
+      </style>
+      <div class="footA">
+        <p>sasaki yusuke</p>
+      </div>
+      <nav class="footB">
+        <ul>
+          <li><a href="#">
+            <span class="fa fa-twitter"
+            title="Twitter"></span>
+          </a></li>
+          <li><a href="#">
+            <span class="fa fa-facebook"
+            title="Facebook"></span>
+          </a></li>
+          <li><a href="#">
+            <span class="fa fa-instagram"
+            title="Instagram"></span>
+          </a></li>
+          <li><a href="#">
+            <span class="fa fa-youtube"
+            title="Youtube"></span>
+          </a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
